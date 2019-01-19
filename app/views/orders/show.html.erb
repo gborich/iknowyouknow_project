@@ -1,0 +1,8 @@
+<a href="/orders/new">Create new order</a>
+<% @orders.each do |o| %>
+  <p>
+    <%= o.status%>
+    <%= o.comment%>
+  </p>
+<% end %>
+

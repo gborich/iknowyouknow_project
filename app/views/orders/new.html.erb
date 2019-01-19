@@ -1,0 +1,6 @@
+<a href="/orders">All orders</a>
+<%= form_for @orders do |o| %>
+  <%= o.text_field :status %>
+  <%= o.text_field :comment %>
+  <%= o.submit %>
+<% end %>

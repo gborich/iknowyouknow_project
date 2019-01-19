@@ -1,0 +1,6 @@
+<a href="/categories">All categories</a>
+<%= form_for @category do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :description %>
+  <%= f.submit %>
+<% end %>

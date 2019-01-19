@@ -1,0 +1,7 @@
+<a href="/services">All services</a>
+<%= form_for @service do |o| %>
+  <%= o.text_field :name %>
+  <%= o.text_field :description %>
+  <%= o.number_field :price %>
+  <%= o.submit %>
+<% end %>

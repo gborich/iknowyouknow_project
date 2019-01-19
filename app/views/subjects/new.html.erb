@@ -1,0 +1,6 @@
+<a href="/subjects">All subjects</a>
+<%= form_for @subject do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :description %>
+  <%= f.submit %>
+<% end %>

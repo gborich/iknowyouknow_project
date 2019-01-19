@@ -1,0 +1,7 @@
+<a href="/services/new">Create new service</a>
+<% @services.each do |s| %>
+  <p>
+    <%= s.name + ', ' + s.description + ', ' + s.price.to_s %>
+  </p>
+<% end %>
+

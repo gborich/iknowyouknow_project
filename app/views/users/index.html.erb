@@ -1,0 +1,25 @@
+<a href="/users/new">Create new user</a>
+<% @users.each do |u| %>
+  <p>
+    <%= u.name + ' ' + u.lastname + ', ' + u.age%>
+  </p>
+  <p>
+    <%= u.login + ', ' + u.password %>
+  </p>
+  <p>
+    <%= u.country + ', ' + u.city %>
+  </p>
+  <p> Description:
+    <%= u.description%>
+  </p>
+  <p> Mail:
+    <%= u.mail%>
+  </p>
+  <p> Phone number:
+    <%= u.phone%>
+  </p>
+  <p> Awards:
+    <%= u.awards%>
+  </p>
+
+<% end %>

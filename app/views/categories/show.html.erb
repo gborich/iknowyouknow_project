@@ -1,0 +1,7 @@
+<a href="/categories/new">Create new category</a>
+<% @category.each do |s| %>
+  <p>
+    <%= s.name + ', ' + s.description %>
+  </p>
+<% end %>
+

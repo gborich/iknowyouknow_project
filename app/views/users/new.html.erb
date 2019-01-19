@@ -1,0 +1,26 @@
+<a href="/">All users</a>
+<%= form_for @user do |f| %>
+  <%= f.text_field :name %> Name
+  </br>
+  <%= f.text_field :lastname %> Last Name
+  </br>
+  <%= f.text_field :login %> Login
+  </br>
+  <%= f.text_field :password %> Password
+  </br>
+  <%= f.text_field :age %> Age
+  </br>
+  <%= f.text_field :description %> Description
+  </br>
+  <%= f.text_field :country %> Country
+  </br>
+  <%= f.text_field :city %> City
+  </br>
+  <%= f.text_field :mail %> Mail
+  </br>
+  <%= f.text_field :phone %> Phone
+  </br>
+  <%= f.text_field :awards %> Awards
+  </br>
+  <%= f.submit %>
+<% end %>

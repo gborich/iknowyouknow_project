@@ -1,0 +1,10 @@
+<h1>Pages#main</h1>
+<p>Find me in app/views/pages/main.html.erb</p>
+
+
+<%=form_for :user,url:user_create_path do|form|  %>
+  <%=form.text_field :lastname %>
+ <%=form.text_field :name %>
+  <%=form.submit %>
+<% end %>
+

@@ -60,4 +60,4 @@ p.comment = 'good'
 
 p = Category.new
 p.name = 'Buisiness'
-p.comment = 'about Buisiness'
+p.description = 'about Buisiness'

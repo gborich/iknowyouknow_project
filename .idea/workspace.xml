@@ -2,73 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f35d6ae-3c12-438e-ac0b-2449b405c419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iknowyouknow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iknowyouknow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/orders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/orders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/subjects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/subjects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/category.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/category_subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category_subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/country.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/country.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/service_tag.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/service_tag.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/student.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/student.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tag.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tag.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/teacher.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/teacher.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user_role.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_role.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/services/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/services/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/services/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/services/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/categories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/categories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/category_subjects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/category_subjects.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/countries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/countries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/orders.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/orders.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/service_tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/service_tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/students.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/students.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/subjects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/subjects.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/tags.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/tags.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/teachers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/teachers.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/user_roles.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/user_roles.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/category_subject_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/category_subject_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/category_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/category_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/country_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/country_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/order_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/order_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/service_tag_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/service_tag_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/service_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/service_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/student_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/student_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/subject_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/subject_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/tag_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/tag_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/teacher_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/teacher_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_role_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_role_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -120,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            <state relative-caret-position="843">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -520,12 +454,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547915443817</updated>
       <workItem from="1547915445411" duration="11018000" />
-      <workItem from="1548518549558" duration="17847000" />
+      <workItem from="1548518549558" duration="18078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28865000" />
+    <option name="totallyTimeSpent" value="29096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -865,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="843">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
         </state>
       </provider>
     </entry>

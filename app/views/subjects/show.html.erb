@@ -1,7 +1,15 @@
-<a href="/subjects/new">Create new subject</a>
+<div class="container">
+<div class="alert alert-dark" role="alert">
+  <a href="/subjects/new" class="alert-link">Create new subject</a>
+</div>
 <% @subjects.each do |s| %>
-  <p>
-    <%= s.name + ', ' + s.description %>
-  </p>
+  <div class="alert alert-primary" role="alert">
+    <p>
+      Name: <%= s.name %>
+    </p>
+    <p>
+      Description: <%= s.description  %>
+    </p>
+  </div>
 <% end %>
-
+</div>

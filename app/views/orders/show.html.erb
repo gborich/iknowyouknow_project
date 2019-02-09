@@ -1,8 +1,20 @@
-<a href="/orders/new">Create new order</a>
+<div class="container">
+<div class="alert alert-dark" role="alert">
+  <a href="/orders/new" class="alert-link">Create new order</a>
+</div>
+<style>
+  .text {
+    width: 10em;
+    margin: 2px;
+    padding: .5px;
+    border: 1px solid black;
+  }
+</style>
 <% @orders.each do |o| %>
-  <p>
-    <%= o.status%>
-    <%= o.comment%>
+
+  <p class="alert alert-primary" role="alert">
+    Status: <%= o.status%>
+    Comment: <%= o.comment%>
   </p>
 <% end %>
-
+</div>

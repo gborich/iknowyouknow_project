@@ -1,7 +1,18 @@
-<a href="/services/new">Create new service</a>
+<div class="container">
+<div class="alert alert-dark" role="alert">
+  <a href="/services/new" class="alert-link">Create new service</a>
+</div>
 <% @services.each do |s| %>
+  <div class="alert alert-primary" role="alert">
   <p>
-    <%= s.name + ', ' + s.description + ', ' + s.price.to_s %>
+    Name: <%= s.name %>
   </p>
+  <p>
+    Description: <%= s.description  %>
+  </p>
+  <p>
+    Price: <%= s.price  %>
+  </p>
+  </div>
 <% end %>
-
+</div>

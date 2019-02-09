@@ -1,7 +1,16 @@
-<a href="/categories/new">Create new category</a>
+<div class="container">
+<div class="alert alert-dark" role="alert">
+  <a href="/categories/new"" class="alert-link">Create new category</a>
+</div>
 <% @category.each do |s| %>
-  <p>
-    <%= s.name + ', ' + s.description %>
-  </p>
+  <div class="alert alert-primary" role="alert">
+    <p>
+      Name: <%= s.name%>
+    </p>
+    <p>
+      Description: <%= s.description%>
+    </p>
+  </div>
 <% end %>
+</div>
 

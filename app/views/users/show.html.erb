@@ -1,0 +1,32 @@
+<div class="container">
+<div class="alert alert-dark" role="alert">
+  <a href="/users/new" class="alert-link">Create new user</a>
+</div>
+<% @users.each do |q|%>
+  <div class="alert alert-primary" role="alert"">
+    <h3>User № <%= q.id %></h3>
+    <%= link_to 'edit', edit_users_path(q) %>
+    <%#= link_to 'delete', delet(q), method: :delete %>
+    <p>
+      Name: <%= q.name %>
+      Lastname: <%= q.lastname %>
+      Age: <%= q.age %>
+    </p>
+    <p>
+      Login: <%= q.login + ', ' + q.password %>
+    </p>
+    <p> Description:
+      <%= q.description%>
+    </p>
+    <p> Mail:
+      <%= q.mail%>
+    </p>
+    <p> Phone number:
+      <%= q.phone%>
+    </p>
+    <p> Awards:
+      <%= q.awards%>
+    </p>
+  </div>
+<% end %>
+  </div>

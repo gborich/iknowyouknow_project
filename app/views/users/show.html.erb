@@ -3,10 +3,9 @@
   <a href="/users/new" class="alert-link">Create new user</a>
 </div>
 <% @users.each do |q|%>
-  <div class="alert alert-primary" role="alert"">
+  <div class="alert alert-primary" role="alert">
     <h3>User № <%= q.id %></h3>
     <%= link_to 'edit', edit_users_path(q) %>
-    <%#= link_to 'delete', delet(q), method: :delete %>
     <p>
       Name: <%= q.name %>
       Lastname: <%= q.lastname %>

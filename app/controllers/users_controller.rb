@@ -45,7 +45,7 @@ class UsersController < ApplicationController
 
   def delete
     User.find(params[:id]).destroy
-    redirect_to champions_path
+    redirect_to users_path
   end
 
 end
